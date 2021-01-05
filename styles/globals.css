@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(250, 248, 248);
 }
 
 a {
@@ -13,4 +14,277 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.showcase {
+  background-image: url(../public/food-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 1rem;
+  color: rgb(231, 228, 228);
+}
+
+.nav-logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 4rem;
+}
+.nav-shop-logo {
+  padding-top: 10px;
+}
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 110vh;
+}
+.jumbotron-title {
+  font-size: 3.5rem;
+  margin-top: -10rem;
+  color: rgb(231, 228, 228);
+}
+.jumbotron-text {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: rgb(231, 228, 228);
+}
+.jumbotron-button {
+  margin-top: 2rem;
+}
+.jumbotron-logo {
+  color: rgb(248, 200, 136);
+}
+
+.box-list {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box-list-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-lists {
+  background-color: transparent;
+  margin-top: -6rem;
+}
+.food-delivery {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  margin-top: 8rem;
+  color: rgb(236, 232, 232);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../public/salad.jpg");
+  background-size: cover;
+}
+.food-delivery-title {
+  font-size: 4rem;
+}
+.food-delivery-payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.food-delivery-text {
+  width: 50%;
+  font-size: 1.2rem;
+}
+.food-delivery-button {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star-icon {
+  color: #d4af37 !important;
+  font-size: 5rem !important;
+}
+.rating {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rating-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating-caption {
+  font-size: 2rem;
+}
+.rating-caption span {
+  color: #d4af37;
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+.menu-container-image {
+  background-image: url("../public/dinner.jpg");
+  background-size: cover;
+  height: 40rem;
+  flex: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3rem;
+  color: rgb(230, 224, 224);
+  padding: 1rem;
+}
+.menu-container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.3;
+  height: 40rem;
+}
+.menu-container-card-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 223, 183);
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.3rem;
+}
+.menu-container-card-middle {
+  background-image: url("../public/people.jpg");
+  background-size: cover;
+}
+.menu-container-card-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  background-color: rgb(248, 200, 136);
+}
+.menu-container-card-top,
+.menu-container-card-middle,
+.menu-container-card-bottom {
+  height: 30%;
+  box-shadow: 2px 2px 2px 2px rgb(211, 209, 209);
+}
+.menu-template-container {
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.3;
+}
+.menu-template-container-top {
+  background-image: url("../public/res-menu.jpg");
+  background-size: cover;
+  height: 60%;
+}
+.menu-template-container-bottom {
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(75, 68, 66);
+  font-size: 2rem;
+  color: white;
+  font-weight: bolder;
+  font-family: "Dancing Script", cursive;
+  box-shadow: 2px 2px 2px 2px rgb(223, 221, 221);
+}
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+.services-title {
+  font-size: 3rem;
+}
+.services-title span {
+  color: #d4af37;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+.services-left-check {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: gray;
+}
+.services-right {
+  flex: 0.6;
+  background-color: #d4af37;
+  font-size: 1.5rem;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-media p {
+  font-size: 1.5rem;
+}
+.footer-social-media-icons {
+  font-size: 2rem !important;
+  color: gray;
+}
+
+.footer-logo {
+  font-size: 1rem;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    display: none;
+  }
+  .box-list-items {
+    flex-direction: column;
+  }
+  .menu-container {
+    flex-direction: column;
+  }
 }
